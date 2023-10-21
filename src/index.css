@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Exo 2', sans-serif;
+  background-color: #f0fff0;
+}
+
+.container {
+  width: 45%;
+  margin: 5px auto;
+  border: 1px #f0fff0 solid;
+  border-radius: 10px;
+  padding: 35px;
+}
+
+.title {
+  width: 90%;
+  margin: 0px auto 15px auto;
+  text-align: center;
+}
+
+form {
+  width: 80%;
+  margin: 10px auto;
+  border: 2px yellowgreen solid;
+  border-radius: 10px;
+}
+
+form input {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  height: 40px;
+}
+
+.form-field {
+  margin: 15px auto;
+}
+
+.form-field label {
+  display: block;
+  width: 60%;
+  margin: 5px auto;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+button {
+  display: block;
+  width: 60%;
+  margin: 20px auto;
+  background-color: blueviolet;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.filter-container {
+  width: 60%;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px lightgrey solid;
+  border-radius: 8px;
+  background-color: #ffffe0;
+  color: #fa8072;
+}
+
+.filter-container label {
+  margin-right: 30px;
+}
+
+.filter-container select {
+  background-color: #fff0f5;
+}
+
+.reminder-container {
+  width: 70%;
+  margin: 10px auto;
+  border: 1px lightgrey solid;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f;
+}
+
+.task {
+  width: 50%;
+}
+
+.due-date {
+  width: 35%;
+}
+
+.reminder-container input {
+  display: block;
+  width: 15%;
+}
+
+@media(min-width: 320px) and (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+
+  form {
+    width: 95%;
+  }
+
+  .filter-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .filter-container label {
+    display: block;
+    width: 85%;
+  }
+
+  .filter-container input {
+    display: block;
+    width: 10%;
+  }
+
+  .reminder-container {
+    width: 90%;
+  }
+}
