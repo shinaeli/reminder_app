@@ -20,7 +20,7 @@ const App = () => {
     },
     {
       reminderText: "Meet with Jean-Luc",
-      dueDate: "2023-01-29",
+      dueDate: "2023-11-29",
       isCompleted: false,
       id: 2,
     },
@@ -32,9 +32,27 @@ const App = () => {
     },
     {
       reminderText: "Wash Some Cloths",
-      dueDate: "2023-10-10",
+      dueDate: "2023-11-10",
       isCompleted: false,
       id: 4,
+    },
+    {
+      reminderText: "Go To Church",
+      dueDate: "2023-12-08",
+      isCompleted: false,
+      id: 5,
+    },
+    {
+      reminderText: "Celebrate Christmas with Friends",
+      dueDate: "2023-12-25",
+      isCompleted: false,
+      id: 6,
+    },
+    {
+      reminderText: "Celebrate New Year with Family",
+      dueDate: "2024-01-01",
+      isCompleted: false,
+      id: 7,
     },
   ]);
 const [selectedFilter, setSelectedFilter] = useState("all");

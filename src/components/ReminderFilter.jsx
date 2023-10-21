@@ -3,7 +3,9 @@ import React from 'react'
 const ReminderFilter = ({selectedFilter, setSelectedFilter}) => {
     const handleChange = e => {
         setSelectedFilter(e.target.value);
+        console.log(selectedFilter);
     }
+
 
   return (
     <div className='filter-container'>
